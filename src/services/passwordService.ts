@@ -7,6 +7,5 @@ export default function generatePasswordBat() {
     const at = Math.floor(Math.random() * charset.length);
     password += charset.charAt(at);
   }
-  console.log(password + " is the password");
   return password;
 }
